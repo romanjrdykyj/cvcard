@@ -1,6 +1,5 @@
 import 'package:cvcard/common/constants.dart';
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
 
 class SectionName extends StatelessWidget {
   final String name;
@@ -11,7 +10,8 @@ class SectionName extends StatelessWidget {
   Widget build(BuildContext context) {
     return SelectableText(
       name.toUpperCase(),
-      style: GoogleFonts.mavenPro(
+      style: const TextStyle(
+        fontFamily: 'MavenPro',
         color: Constants.standardTextColor,
         fontSize: 16,
         fontWeight: FontWeight.normal,

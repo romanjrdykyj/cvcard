@@ -2,7 +2,6 @@ import 'dart:async';
 
 import 'package:cvcard/common/constants.dart';
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 class SectionSingleOption extends StatefulWidget {
@@ -53,14 +52,16 @@ class _SectionSingleOptionState extends State<SectionSingleOption> {
               child: widget.uriUrl == null
                   ? SelectableText(
                       widget.text,
-                      style: GoogleFonts.mavenPro(
+                      style: TextStyle(
+                        fontFamily: 'MavenPro',
                         color: widget.textColor,
                         fontSize: 14,
                       ),
                     )
                   : Text(
                       widget.text,
-                      style: GoogleFonts.mavenPro(
+                      style: TextStyle(
+                        fontFamily: 'MavenPro',
                         color: widget.textColor,
                         fontSize: 14,
                       ),

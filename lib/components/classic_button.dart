@@ -5,7 +5,6 @@ import 'dart:html';
 
 import 'package:cvcard/common/constants.dart';
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 class ClassicButton extends StatefulWidget {
@@ -50,7 +49,8 @@ class _ClassicButtonState extends State<ClassicButton> {
           ),
           child: Text(
             widget.text,
-            style: GoogleFonts.mavenPro(
+            style: TextStyle(
+              fontFamily: 'MavenPro',
               color: widget.textColor ?? Constants.standardLabelColor,
               fontSize: 18,
               fontWeight: FontWeight.bold,

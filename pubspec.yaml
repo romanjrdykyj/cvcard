@@ -13,7 +13,6 @@ dependencies:
   flutter:
     sdk: flutter
   font_awesome_flutter: ^10.3.0
-  google_fonts: ^3.0.1
   url_launcher: ^6.1.7
 
 dev_dependencies:
@@ -29,3 +28,9 @@ flutter:
     - assets/images/avatar.jpg
     - assets/images/
     - assets/CV_Roman_Dykyj.pdf
+  fonts:
+    - family: MavenPro
+      fonts:
+        - asset: fonts/MavenPro-Regular.ttf
+        - asset: fonts/MavenPro-Bold.ttf
+          weight: 700
