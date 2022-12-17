@@ -1,0 +1,31 @@
+name: cvcard
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.6 <3.0.0'
+
+dependencies:
+  cupertino_icons: ^1.0.2
+  flutter:
+    sdk: flutter
+  font_awesome_flutter: ^10.3.0
+  google_fonts: ^3.0.1
+  url_launcher: ^6.1.7
+
+dev_dependencies:
+  dart_code_metrics: ^4.20.0
+  flutter_lints: ^2.0.0
+  flutter_test: 
+    sdk: flutter
+  pubspec_dependency_sorter: ^0.0.2
+
+flutter:
+  uses-material-design: true
+  assets: 
+    - assets/images/avatar.jpg
+    - assets/images/
+    - assets/CV_Roman_Dykyj.pdf
